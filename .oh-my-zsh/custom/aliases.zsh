@@ -1,0 +1,5 @@
+alias ls='eza --icons --group-directories-first'
+alias ls='eza --icons --group-directories-first -l'
+alias update='sudo apt update && sudo apt upgrade -y'
+alias vps='ssh root@77.90.42.180'
+alias portainer='ssh root@192.168.2.3'
