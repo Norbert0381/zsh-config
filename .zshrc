@@ -80,7 +80,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+source ~/$ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -105,7 +105,7 @@ source $ZSH/oh-my-zsh.sh
 # the $ZSH_CUSTOM folder, with .zsh extension. Examples:
 # - $ZSH_CUSTOM/aliases.zsh
 # - $ZSH_CUSTOM/macos.zsh
-source $ZSH_CUSTOM/aliases.zsh
+source ~/$ZSH_CUSTOM/aliases.zsh
 
 # For a full list of active aliases, run `alias`.
 #
